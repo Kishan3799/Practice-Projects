@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position:fixed;
+    background-color: #a4a3a3;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid white;
+}
+
+li:last-child{
+    border-right: none;
+}
+a {
+    display: block;
+    padding: 8px;
+}
+
+li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 18px;
+}
+
+li a:hover {
+    color: #333;
+}
+
+.active {
+    background-color: #ed0000;
+}
+
+.main-Section {
+    background-color: aqua;
+}

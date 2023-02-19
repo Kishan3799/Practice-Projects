@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.vertical-nav {
+    background-color: aqua;
+}
+
+.list-items {
+    list-style-type: none;
+    background-color: rgb(174, 174, 174);
+    width: 25%;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+}
+
+.nav-links a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 25px;
+    color: rgb(255, 255, 255);
+}
+
+.nav-links a:hover{
+    border-radius: 25px;
+    background-color: rgb(86, 160, 224);
+    color:rgb(241, 196, 132)
+}
+
+.hero-section {
+    margin-left: 25%;
+}

@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+.container {
+    background-color: aqua;
+    max-width: 70vw;
+    margin: auto;
+}
+
+.image_slider {
+    background-color: red;
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.image_slider img {
+    width: 100%;
+    transition: all 0.3s ease;
+    border:8px solid white;
+}
+
+.image_slider .prev {
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.image_slider .prev:hover {
+    background-color: blue;
+}
+
+.image_slider .next {
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.image_slider .next:hover {
+    background-color: blue;
+}
+
+
+.image-container {
+    position: absolute;
+    display: none;
+}
+
+
+
+.main {
+    display: block;
+}
+
+
+
+
